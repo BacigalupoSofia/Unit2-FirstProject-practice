@@ -1,8 +1,43 @@
-h1 {
-  text-align: center;
-  color: blue;
+.header {
+  background-color: rgba(201, 188, 188, 0.749);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
 }
 
-h2 {
-  color: red;
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: auto;
+  height: 150px;
+}
+
+.logo-container h1 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #b30000;
 }
